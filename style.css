@@ -50,7 +50,7 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-  background: url('bike-service.jpg') center center/cover no-repeat;
+  background: url('bike-upgrade.jpg') center center/cover no-repeat;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -190,3 +190,4 @@ footer {
   margin-top: 2rem;
   font-size: 1rem;
 }
+
