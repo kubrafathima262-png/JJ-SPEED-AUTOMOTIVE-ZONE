@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #0000;
+  background: black;
   scroll-behavior: smooth;
   line-height: 1.6;
 }
@@ -132,6 +132,7 @@ form {
   display: flex;
   flex-direction: column;
  
+
 
 
 
