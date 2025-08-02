@@ -39,11 +39,21 @@ nav a {
 
 .hero {
   position: relative;
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  background: bike-mod.jpg(to right, #0f2027, #203a43, #2c5364);
   color: white;
   text-align: center;
   padding: 120px 20px 160px;
   overflow: hidden;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  z-index: 1;
 }
 
 .hero h1 {
@@ -107,5 +117,6 @@ nav a {
 .image-cards {
   display: flex;
   flex-wrap
+
 
 
