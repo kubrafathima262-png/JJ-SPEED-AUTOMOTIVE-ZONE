@@ -8,7 +8,7 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   background: #f8f9fa;
-  color: #fff;
+  color: #222;   /* Change from white to dark */
   line-height: 1.6;
 }
 
@@ -255,6 +255,7 @@ footer {
     margin-left: 0;
   }
 }
+
 
 
 
