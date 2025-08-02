@@ -13,7 +13,7 @@ body {
 
 header {
   background: #222;
-  color: white;
+  color: black;
   padding: 15px 30px;
   display: flex;
   justify-content: space-between;
@@ -132,6 +132,7 @@ form {
   display: flex;
   flex-direction: column;
  
+
 
 
 
