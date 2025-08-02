@@ -10,7 +10,7 @@ body {
   line-height: 1.6;
   background: #f5f5f5;
   color: #333;
-  font-size: 18px;  /* Slightly larger text */
+  font-size: 18px;
 }
 
 /* Header */
@@ -59,6 +59,7 @@ nav a:hover {
   color: white;
   text-align: center;
   position: relative;
+  overflow: hidden;
 }
 
 .hero .overlay {
@@ -67,17 +68,13 @@ nav a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);  /* Darker for better text visibility */
-}
-
-.hero h1, .hero p, .hero .btn {
-  position: relative;
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .hero h1 {
-  font-size: 4rem;  /* Bigger title */
+  font-size: 4rem;
   margin-bottom: 1.2rem;
-  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
 .hero h1 span {
@@ -85,9 +82,9 @@ nav a:hover {
 }
 
 .hero p {
-  font-size: 1.6rem;  /* Larger subtext */
+  font-size: 1.6rem;
   margin-bottom: 1.8rem;
-  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
 }
 
 .hero p span {
@@ -117,19 +114,19 @@ nav a:hover {
   position: absolute;
   bottom: 10%;
   left: -100%;
-  width: 200px;
+  width: 250px; /* Adjust width based on your bike image size */
   animation: moveBike 10s linear infinite;
 }
 
 @keyframes moveBike {
   0% {
-    left: -100%;  /* Start off the screen */
+    left: -100%; /* Start off the screen */
   }
   50% {
-    left: 50%;  /* Midway across the screen */
+    left: 50%; /* Midway across the screen */
   }
   100% {
-    left: 100%;  /* End off the screen */
+    left: 100%; /* End off the screen */
   }
 }
 
@@ -148,29 +145,7 @@ nav a:hover {
   color: #e63946;
 }
 
-.service-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 2rem;
-  margin-top: 2.5rem;
-}
-
-.card {
-  background: white;
-  padding: 2rem;
-  border-radius: 12px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 10px 18px rgba(0,0,0,0.25);
-}
-
-/* Contact & Form */
+/* Contact Section */
 .contact-details {
   margin-bottom: 1.5rem;
   font-size: 1.2rem;
@@ -215,4 +190,3 @@ footer {
   margin-top: 2rem;
   font-size: 1rem;
 }
-
