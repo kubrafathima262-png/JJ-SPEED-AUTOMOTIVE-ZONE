@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #f4f4f4;
+  background: #0000;
   scroll-behavior: smooth;
   line-height: 1.6;
 }
@@ -79,7 +79,7 @@ nav a {
 }
 
 .moving-bike {
-  width: 150px;
+  width: 200px;
 }
 
 @keyframes moveBike {
@@ -132,6 +132,7 @@ form {
   display: flex;
   flex-direction: column;
  
+
 
 
 
